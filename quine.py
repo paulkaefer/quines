@@ -3,7 +3,7 @@ def foo():
     print("lines = inspect.getsource(foo)")
     print("print(lines)")
     
-    print("\nfoo()")
+    print("\nfoo()\n")
 
 import inspect
 lines = inspect.getsource(foo)
